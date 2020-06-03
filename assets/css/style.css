@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    background: #edf0e2;
+    font-family: 'Playfair Display', serif;
+    color: #14140f;
+}
+
+section{
+    background: url(https://cdn.dribbble.com/users/1789165/screenshots/6819197/attachments/1455528/____.png) right/contain no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+section div{
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+section div h2{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+section div span{
+    font-size: 60px;
+}
+
+section div p{
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0 50px;
+}
+
+section div a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 100px;
+    background: #ffaa15;
+    color: #14140f;
+    border-radius: 30px;
+}
+
+section div a:hover{
+    background: #e8652e;
+}
